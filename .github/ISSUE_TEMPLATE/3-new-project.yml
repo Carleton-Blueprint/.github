@@ -26,7 +26,7 @@ body:
       description: Describe the project requirements, stakeholders, and goals.
       placeholder: ex. This project is to create a website for World Vision to help them fundraise.
       value: |
-      <!-- Project Description -->
+        <!-- Project Description -->
     validations:
       required: true
   - type: checkboxes
