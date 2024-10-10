@@ -6,10 +6,11 @@ projects: ['']
 assignees:
   -
 body:
-  # - type: markdown
-  #   attributes:
-  #     value: |
-  #       Thanks for taking the time to fill out this bug report!
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        ![Blueprint Logo](./blueprint-logo.png)
   # - type: input
   #   id: contact
   #   attributes:
@@ -26,8 +27,11 @@ body:
       placeholder: Tell us what you see!
       value: |
         # Expected behavior
+
         # Actual behaviour
+
         # Screenshots
+
     validations:
       required: true
   - type: dropdown
