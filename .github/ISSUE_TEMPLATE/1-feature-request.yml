@@ -10,7 +10,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: >
+      value: |
         <img src="https://github.com/Carleton-Blueprint/.github/blob/main/assets/banner_negative.png?raw=true" alt="Description" width="300" />
 
         **Thanks :heart: for taking the time to fill out this feature request report!** We kindly ask that you search to
