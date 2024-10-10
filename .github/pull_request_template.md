@@ -22,3 +22,5 @@ brackets for that item. If a checklist item is not applicable for this MR, pleas
 note that by placing a `~` inside of the square brackets in the raw Markdown.
 In both cases, please ensure there is no whitespace between the square
 brackets.
+
+> Make sure you squash your commits before merging!
