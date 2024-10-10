@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-        ![Blueprint Logo](https://github.com/Carleton-Blueprint/.github/blob/main/assets/blueprint-logo.png)
+        ![Blueprint Logo](https://github.com/Carleton-Blueprint/.github/blob/main/assets/blueprint-logo.png?raw=true)
   # - type: input
   #   id: contact
   #   attributes:
