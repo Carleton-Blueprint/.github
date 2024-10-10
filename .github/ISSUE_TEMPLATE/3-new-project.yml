@@ -1,0 +1,39 @@
+name: 📌 New Project
+description: Start a new project thread. For VP Projects use!
+title: '[project]: '
+labels: ['📌 projects']
+projects: ['']
+assignees:
+  -
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <img src="https://github.com/Carleton-Blueprint/.github/blob/main/assets/banner_negative.png?raw=true" alt="Description" width="300" />
+        You are now starting a new Carleton Blueprint project. Please fill out the following information to the best of your ability. This will help us track your project in project management.
+  - type: input
+    id: organization
+    attributes:
+      label: Name of organization
+      description: Name of the client organization that this project is for.
+      placeholder: ex. World Vision
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Project Description
+      description: Describe the project requirements, stakeholders, and goals.
+      placeholder: ex. This project is to create a website for World Vision to help them fundraise.
+      value: |
+      <!-- Project Description -->
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://carletonblueprint.org).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
