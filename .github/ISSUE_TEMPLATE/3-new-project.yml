@@ -19,6 +19,22 @@ body:
       placeholder: ex. World Vision
     validations:
       required: true
+  - type: input
+    id: vpp_name
+    attributes:
+      label: Name of VP Projects
+      description: Name of the VP Projects who will be managing this project.
+      placeholder: ex. Justin Zhang
+    validations:
+      required: true
+  - type: input
+    id: organization_tag
+    attributes:
+      label: Organization Tag
+      description: Shortened name of the organization for use in project management.
+      placeholder: ex. 'tg' for 'Technolgap'
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
@@ -28,7 +44,7 @@ body:
       value: |
         <!-- Project Description -->
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: terms
     attributes:
